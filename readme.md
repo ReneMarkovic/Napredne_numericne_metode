@@ -7,7 +7,15 @@ Na začetku lahko elementi matrike zauzemajo vrednost 0 ali pa njihovo vrednost 
 
 # Kako zaženemo program
 
-Datoteka main.py vsebuje ključne parametre, s katerimi nastavljamoi:
+Predhodno je potrebno preveriti, da so namešene vse knjižice, ki se uvozijo.
+  <ul>
+    <li>numpy</li>
+    <li>matplotlib</li>
+    <li>scipy</li>
+  </ul>
+ 
+  Uporabnik nato lahko le zažene main.py (python main.py) in se koda zažene. Izvede se simulacija in analizirajo podatki.
+  Uporabnik lahko tudi spreminja parametre modela. Datoteka main.py vsebuje ključne parametre, s katerimi nastavljamoi:
 
 |Spremenljivka | Nastavljena vrednost | Pomen |
 |--------------|:-----:|-----------:|
