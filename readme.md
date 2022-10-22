@@ -9,17 +9,18 @@ Na začetku lahko elementi matrike zauzemajo vrednost 0 ali pa njihovo vrednost 
 
 Datoteka main.py vsebuje ključne parametre, s katerimi nastavljamoi:
 
-Spremenljivka | Nastavljena vrednost | Pomen
-size | 0 | Spremenljivka beleži število celic, po katerih se je razširil plaz.
-Nx | 51 | Število razdelkov na x osi
-Ny | 51 | Število razdelkov na y osi
-TFIN | 5000 | Skupno število 
-Sth | 4 | Mejna vrednost strmine, ki sproži plaz
-cx | int(Nx/2) | x lega kjer se spuiščajo zrna peska
-cy | int(Ny/2) | y lega kjer se spuiščajo zrna peska
-pos | [cx,cy]  | seznam leg, kjer se spuščajo zrna peska
-st_zrn | 4 | ŠTevilo zrn, ki se na vsako lokacijo spussti v vsaki iteraciji
-START | int(0.8*TFIN) | Število iteracij, ki se zanemarijo
+|Spremenljivka | Nastavljena vrednost | Pomen |
+|--------------|:-----:|-----------:|
+|size | 0 | Spremenljivka beleži število celic, po katerih se je razširil plaz. |
+|Nx | 51 | Število razdelkov na x osi |
+|Ny | 51 | Število razdelkov na y osi |
+|TFIN | 5000 | Skupno število |
+|Sth | 4 | Mejna vrednost strmine, ki sproži plaz |
+|cx | int(Nx/2) | x lega kjer se spuiščajo zrna peska |
+|cy | int(Ny/2) | y lega kjer se spuiščajo zrna peska |
+|pos | [cx,cy]  | seznam leg, kjer se spuščajo zrna peska |
+|st_zrn | 4 | ŠTevilo zrn, ki se na vsako lokacijo spussti v vsaki iteraciji |
+|START | int(0.8*TFIN) | Število iteracij, ki se zanemarijo |
 
 # Viri
 [1] http://guava.physics.uiuc.edu/~nigel/courses/563/Essays_2012/PDF/banerjee.pdf <br>
